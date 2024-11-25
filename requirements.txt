@@ -1,8 +1,11 @@
-streamlit 
+streamlit
 pandas
 numpy
-folium  
 matplotlib
-plotly
 seaborn
+plotly
+folium
+requests
 altair
+ipywidgets
+notebook
