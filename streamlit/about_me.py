@@ -128,11 +128,12 @@ def show():
         <div class="card">
             <h3>Compétences clés &#128187;</h3>
             <ul>
-                <li>Python (Pandas, NumPy, Scikit-learn, TensorFlow)</li>
-                <li>Data Visualization (Matplotlib, Seaborn, Plotly, Folium, Power BI, Altair)</li>
+                <li>Python (Pandas, NumPy, Scikit-learn, Pytorch)</li>
+                <li>Data Visualization (Matplotlib, Seaborn, Plotly, Folium, Altair, Power BI)</li>
                 <li>Machine Learning & AI (modélisation, hyperparameter tuning)</li>
                 <li>Business Intelligence</li>
                 <li>SQL, NoSQL, gestion de bases de données</li>
+                <li>Microsoft Office (Excel, PowerPoint, Word)</li>
             </ul>
         </div>
     """, unsafe_allow_html=True)

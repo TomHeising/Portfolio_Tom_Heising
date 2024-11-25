@@ -86,7 +86,7 @@ def generate_map(df):
 
 def show():    
     st.markdown("<h2 style='text-align: center; color: white;'>Carte des Nuances Politiques par Commune</h2>", unsafe_allow_html=True)
-    temp_df = pd.read_csv('/Users/tomheising/Desktop/Data Vizualisation Project /Data/final_df.csv')
+    temp_df = pd.read_csv('Data/final_df.csv')
     
     m1 = generate_map(temp_df)
     html(m1, width=1200, height=800)

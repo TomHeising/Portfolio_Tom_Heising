@@ -15,7 +15,7 @@ import altair as alt
 
 st.set_page_config(page_title='Analyse Élections législatives 2024', page_icon='📊', layout='wide', initial_sidebar_state='auto')
 def show():
-    temp_df = pd.read_csv('/Users/tomheising/Desktop/Data Vizualisation Project /Data/final_df.csv')
+    temp_df = pd.read_csv('Data/final_df.csv')
 
     ENScpt = DSVcpt = DVCcpt = DVGcpt = DVDcpt = FIcpt = HORcpt = 0
     LRcpt = REGcpt = RNcpt = SOCcpt = UDIcpt = UGcpt = UXDcpt = 0
